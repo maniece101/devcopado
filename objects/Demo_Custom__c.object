@@ -36,14 +36,4 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
-    <validationRules>
-        <fullName>DemoValidationRuleOne</fullName>
-        <active>true</active>
-        <description>created for Demo.</description>
-        <errorConditionFormula>AND(
- Field_One__c,
- ISBLANK(Field_Two__c)
-)</errorConditionFormula>
-        <errorMessage>Please enter Field two if Field one is checked.</errorMessage>
-    </validationRules>
 </CustomObject>
