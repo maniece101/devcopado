@@ -9,12 +9,20 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Field_Two__c</fullName>
+        <fullName>Field_new</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Field new</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        Name>Field_Two__c</fullName>
         <externalId>false</externalId>
         <label>Field Two</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Email</type>
+        <type>Email</type><full
         <unique>false</unique>
     </fields>
     <validationRules>
